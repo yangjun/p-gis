@@ -19,12 +19,12 @@ case class WMSConfig(baseUrl: String, layers: String, format: String, transparen
 
 /**
  * WMS图层
- * @param id
+ * @param uuid
  * @param name
  * @param enabled
  * @param config
  */
-case class WMSLayer(id: String, name: String, enabled: Boolean, config: WMSConfig)
+case class WMSLayer(uuid: String, name: String, enabled: Boolean, config: WMSConfig)
 
 
 object JsonFormats {
